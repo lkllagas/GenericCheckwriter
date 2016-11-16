@@ -1,0 +1,64 @@
+tblCheck
+---------
+TransNumber (PK) (AutoNumber)
+Voucher Number
+Check Date
+Payee Name
+Amount
+PreferredCheckNumber
+isCrossCheck
+hasCWT
+
+
+tblCheckDetails
+--------------
+TransNumber (FK)
+Remarks
+
+
+tblCWT
+--------------
+TransNumber(FK)
+WtaxAmount
+TaxableAmount
+ATCCode
+ATCDescription
+CWTDate
+CWTQuarter
+FromCWTDate
+ToCWTDate
+PayeeZipCode
+PayeeTin
+PayeeAddress
+
+
+tblReleasing
+-------------
+ReleasingCode (PK)
+ReleasingName
+isBackToClient?
+
+
+tblSetup
+--------------
+CompanyID(PK)
+CompanyName
+AccountNumber
+isOnlineApproval
+DownloadDirectory
+UploadDirectory
+hasPreferredCheckNumber
+CorpOrMC
+hasCWT
+CWTDateSetup (Quarterly or Monthly)
+WithCrossCheck
+
+
+
+tblSignatories
+---------------
+SignatoryID (PK)
+CompanyID (FK)
+SignatoryName
+Position
+
