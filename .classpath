@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="References"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Images"/>
+	<classpathentry exported="true" kind="lib" path="References/commons-lang-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="References/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="References/hsqldb.jar"/>
+	<classpathentry exported="true" kind="lib" path="References/jackcess-2.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="References/ucanaccess-3.0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="References/bcprov-ext-jdk15on-155.jar"/>
+	<classpathentry exported="true" kind="lib" path="References/jackcess-encrypt-2.1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
